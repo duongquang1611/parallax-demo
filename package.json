@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "no-verify": "git add . && git commit --amend --no-edit --no-verify && git push origin HEAD -f"
   },
   "dependencies": {
     "react": "^18.3.1",
